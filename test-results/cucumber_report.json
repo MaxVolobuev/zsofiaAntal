@@ -1,0 +1,853 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "efbet-footer-navigation-tabs;check-footer-navigation-tabs",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Check footer navigation tabs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 611701000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the \"Sport\" tab on the footer page",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2075837249
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Bonuses and Promotions"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Payment Methods"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "General Terms and Conditions"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "About efbet"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "FAQ"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Affiliate"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Responsible Gaming"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Cookie's Policy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Results"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Statistics"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Privacy Policy"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sponsorships"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Telephone: 0700 20 788"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "support@efbet.com"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "WhatsApp"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Chat"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the following footer tabs:",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 966280666
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32072250
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "efbet-footer-navigation-tabs;check-footer-payment-methods",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Check footer payment methods",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 199499499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I navigate to the \"Sport\" tab on the footer page",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2483434709
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Visa"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "MasterCard"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "A1"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Maestro"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Skrill"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Payz"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Neteller"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ePay"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "EasyPay"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Fast Pay"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Cashterminal"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Bank Transfer"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should see the following payment methods:",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 963317625
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23729249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "efbet-footer-navigation-tabs;check-footer-social-media-links",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Check footer social media links",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 207157457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "I navigate to the \"Sport\" tab on the footer page",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1395742000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Facebook"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "YouTube"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Twitter"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Instagram"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Linkedin"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "I should see the following social media links:",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429922916
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21256541
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "efbet-footer-navigation-tabs;check-footer-disclaimers",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Check footer disclaimers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 179549791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "I navigate to the \"Sport\" tab on the footer page",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922471458
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "The operator of this website is Brobet Limited, Maltese company registration number"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "(License No: 000030-5878/21.05.2024, License No:000030-6916/20.06.2024 )"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "This website is operated by Brobet Limited under the following license, issued and regulated by NRA:"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Administrative address: Sofia, 20 \"James Bourchier\" Blvd"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "efbet ® is a Registered Trademark of Brobet Limited"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Gambling can be addictive. Please gamble responsibly."
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Copyright © 2006. All Rights Reserved."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "I should see the following disclaimers:",
+            "match": {
+              "location": "tests/steps/efbet-footer.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939484083
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 34555542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "efbet-footer-navigation-tabs",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Efbet Footer Navigation Tabs",
+    "tags": [],
+    "uri": "tests/features/efbet-footer.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "efbet-header-navigation;check-left-navigation-tabs",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Check left navigation tabs",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 202371000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the \"Sport\" tab on the header page",
+            "match": {
+              "location": "tests/steps/efbet-header.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2162850000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Program"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "My Favourites"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Top Events"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Euro 2024"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Copa America 2024"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Wimbledon"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Tennis"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Basketball"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Volleyball"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Handball"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Darts"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Snooker"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Boxing/MMA"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "American football"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Aussie rules"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Baseball"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Rugby"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "ESport"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the following left navigation tabs:",
+            "match": {
+              "location": "tests/steps/efbet-header.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3975032499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26376291
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "efbet-header-navigation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Efbet Header Navigation",
+    "tags": [],
+    "uri": "tests/features/efbet-header.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "efbet-home-page;navigate-to-sport-tab",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Navigate to Sport Tab",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the \"Sport\" tab on the home page",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1708971458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see \"Today's Program\"",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2507119374
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30844833
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "efbet-home-page;select-a-sport-and-euro-2024-tab",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Select a Sport and Euro 2024 tab",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 194985375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I navigate to the \"Sport\" tab on the home page",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2749567500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I click on \"Euro 2024\"",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1433144041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see \"Euro 2024\"",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6158167
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21656250
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "efbet-home-page;check-presence-of-element-with-text-\"more...\"",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Check presence of element with text \"More...\"",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 197663208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I navigate to the \"Sport\" tab on the home page",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2019035250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"More...\"",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7079345207
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21399249
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "efbet-home-page;select-a-sport-and-football-tab",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Select a Sport and Football tab",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 187340166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I navigate to the \"Sport\" tab on the home page",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 743886540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on \"Football\"",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1695482415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see \"Football\"",
+            "match": {
+              "location": "tests/steps/efbet-home.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7275541
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22149250
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "efbet-home-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Efbet Home Page",
+    "tags": [],
+    "uri": "tests/features/efbet-home.feature"
+  }
+]
