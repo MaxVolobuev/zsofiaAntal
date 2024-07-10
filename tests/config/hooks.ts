@@ -1,6 +1,6 @@
 import { Before, After, setDefaultTimeout } from '@cucumber/cucumber';
 import { chromium, Browser, Page } from 'playwright';
-import { CustomWorld } from './world';
+import { CustomWorld } from '../config/world';
 
 setDefaultTimeout(60000);
 
