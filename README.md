@@ -47,6 +47,18 @@ To run the Playwright tests, use the following command:
 
 This will execute all the Playwright tests located in the playwright/tests directory.
 
+## Files Explanation
+
+### `hooks.ts`
+
+The `hooks.ts` file contains hooks for the Cucumber tests. Hooks are special functions that run at specific points in the Cucumber test lifecycle. They are used to set up and tear down the test environment.
+
+- **Before hook:** This hook runs before each scenario. It launches a new browser context and a new page for each scenario.
+- **After hook:** This hook runs after each scenario. It closes the browser context.
+
+### `world.ts`
+The world.ts file defines a custom world for Cucumber. A world is an isolated context for each scenario, allowing you to share state between steps in a scenario.
+
 Configuration
 
 Cucumber Configuration
