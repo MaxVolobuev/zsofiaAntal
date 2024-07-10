@@ -3,7 +3,7 @@
 This project contains automated tests for the Efbet website using Cucumber and Playwright. The tests are written in TypeScript and are organized to check various functionalities on the Efbet website, including navigation and element visibility.
 
 ## Attention
-`Main` branch with `Cucumber`
+`Main` branch with `Cucumber`  
 `Develop` branch with `Playwright`
 ## Attention
 
