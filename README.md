@@ -2,14 +2,19 @@
 
 This project contains automated tests for the Efbet website using Cucumber and Playwright. The tests are written in TypeScript and are organized to check various functionalities on the Efbet website, including navigation and element visibility.
 
+## Attention
+`Main` branch with `Cucumber`
+`Develop` branch with `Playwright`
+## Attention
+
 ## Project Structure
 
 - `cucumber/` - Contains Cucumber configuration and hooks.
 - `playwright/` - Contains Playwright configuration and tests.
 - `tests/` - Contains test steps and feature files.
-  - `config/` - Configuration files for setting up the test environment.
-  - `features/` - Cucumber feature files that describe the test scenarios.
-  - `steps/` - Step definitions for the Cucumber scenarios.
+- `config/` - Configuration files for setting up          the test environment.
+- `features/` - Cucumber feature files that describe the test scenarios.
+- `steps/` - Step definitions for the Cucumber scenarios.
 
 ## Prerequisites
 
@@ -33,17 +38,12 @@ Make sure you have the following installed on your machine:
 
 Running Tests
 
-Cucumber Tests
-To run the Cucumber tests, use the following command:
-
-```npm run cucumber```
-
-This will execute all the Cucumber feature files located in the tests/features directory.
-
 Playwright Tests
 To run the Playwright tests, use the following command:
 
-```npm run playwright```
+```npm run playwright``` headless mode
+or with runner:
+```npm run ui```
 
 This will execute all the Playwright tests located in the playwright/tests directory.
 
