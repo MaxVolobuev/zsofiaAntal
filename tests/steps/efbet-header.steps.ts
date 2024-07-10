@@ -6,7 +6,6 @@ Given('I navigate to the {string} tab on the header page', async function (this:
   const page = this.page;
   await page?.goto('https://www.efbet.com/UK');
 
-  // Знаходимо вкладку "Sport" за текстом
   const sportTab = page?.locator(`a:has-text("${tabName}")`).first();
   await sportTab?.waitFor({ state: 'visible', timeout: 5000 });
   await sportTab?.click();
